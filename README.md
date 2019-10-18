@@ -123,6 +123,10 @@ Database Name | Ticket
 
 # Glossary
 
+Anycast
+
+Points of Presence (POPs) - Globally Distributed Points of Presence
+
 Application Instances
 
 Application Slols
@@ -130,3 +134,5 @@ Application Slols
 Azure Templates
 
 <a id="GlossaryApplicationDeliveryController"></a>**Application Delivery Controller** - An application delivery controller (ADC) is a computer network device in a datacenter, often part of an application delivery network (ADN), that helps perform common tasks, such as those done by web accelerators to remove load from the web servers themselves. Many also provide load balancing.
+
+
