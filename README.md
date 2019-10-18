@@ -1,8 +1,5 @@
-# AdventureArchitecture
-Discusses how to build out a azure architecture for the adventure database.
-
-# Resource Group
-For now, this entire example will be created under one resource group to aide in its deletion.  While a resource group is required to be assigned a single region, resources that are assigned to the resource group can assigned different regions.  
+# ArchitectureExample
+Discusses how to build out a azure architecture for a mock ticketing application.
 
 # Regions
 
@@ -13,6 +10,11 @@ For this example, we are going to create resources that will be created across t
 NOTE: when creating this example using a development subscription, not all of the regions were activated and best practice pairings could not be created.  In the future, the following pairings should be considered:
 
 https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions
+
+# Resource Group
+For now, this entire example will be created under one resource group to aide in its deletion.  While a resource group is required to be assigned a single region, resources that are assigned to the resource group can assigned different regions.  It is usually best practice to group resources together.  
+
+Note, this may be revisited at a later date as this example matures in size and complexity.
 
 ## Creation of the Resource Group
 
@@ -43,7 +45,7 @@ Location | West US 2
 
 Setting | Value
 ------- | -----
-Database Name | Adventure
+Database Name | Ticket
 
 
 ## gxnotproddb02 Setup - Central US
@@ -59,7 +61,13 @@ Location | Central US
 
 Setting | Value
 ------- | -----
-Database Name | Adventure
+Database Name | Ticket
+
+# Data Setup
+
+# Model Cost Analysis
+
+2 Database - Standard  - 15 a month.
 
 
 # Simulating DB Failover
