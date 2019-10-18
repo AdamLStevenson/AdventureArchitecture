@@ -1,4 +1,4 @@
-# ArchitectureExample
+# Example Ticket System Architecture
 Discusses how to build out a azure architecture for a mock ticketing application.
 
 # Regions
