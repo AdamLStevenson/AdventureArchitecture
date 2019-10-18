@@ -28,7 +28,7 @@ All the website traffic will be setup to run through azure front door.
 
 Azure front door is an [Application Delivery Network](https://en.wikipedia.org/wiki/Application_delivery_network) as a service that provides layer 7 load balancing. Layer 7 load balancing enables application delivery controllers the ability to inspect traffic and gain deep insights into the application requests.  These insights allow for the controllers to rewrite context, perform security inspections, and implement access controls in addition to providing load balancing capabilities.  
 
-Layer 7 load balancing enables ADC (Application Delivery Controllers) to redirect traffic more intelligently by inspecting content to gain deeper context on the application request. This additional context allows the ADC to not only optimize load balancing but to also rewrite content, perform security inspections and to implement access controls.
+Layer 7 load balancing enables ADC ([Application Delivery Controllers](#GlossaryApplicationDeliveryController)) to redirect traffic more intelligently by inspecting content to gain deeper context on the application request. This additional context allows the ADC to not only optimize load balancing but to also rewrite content, perform security inspections and to implement access controls.
 
 
 ### Benifits of Using Azure Front Door 
