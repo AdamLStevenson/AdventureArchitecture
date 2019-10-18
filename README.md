@@ -1,4 +1,4 @@
-# Example Ticket System Architecture
+# Example Ticket System Architecture - Version 1
 Discusses how to build out a azure architecture for a mock ticketing application.
 
 # Regions
@@ -20,7 +20,7 @@ Note, this may be revisited at a later date as this example matures in size and 
 
 Create a resource group named GX-NOTPROD-DEV.  Assign the region to be West-US-2.  
 
-# Azure Front Door Setup
+# Azure Front Door 
 
 By default, we will setup all the website traffic to run through azure front door by default.  In addition to using azure front door, this sample will also setup a traffic manager so users of this example can compre the differences.
 
@@ -41,6 +41,14 @@ The following outline the benefits of using azure front door over the use of a t
 
 **Application Layer Processing** - Azure front door provides the ability to do url re-writing and provides a web application firewall.
 
+## Configuration
+
+Setting | Value | Comments
+------- | ----- | -------
+Resource Group | GX-NOTPROD-DEV
+Front End Host | gxapidev(.azurefd.net)
+Session Afinity| No | We are not going to use this for now.  Later examples will.
+Web Application Firewall | No | We are not going to use this for now.  Later examples will.
 
 # SQL Server Setup
 
