@@ -22,6 +22,12 @@ Create a resource group named GX-NOTPROD-DEV.  Assign the region to be West-US-2
 
 # Azure Front Door Setup
 
+## Overview
+
+### Benifits of Using Azure Front Door 
+
+#### Benifits of Using Azure Front Door over Traffic Manager
+
 
 
 # SQL Server Setup
