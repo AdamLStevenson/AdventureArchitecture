@@ -40,6 +40,10 @@ Server Name | gxnotproddb01
 Server Login | (pick a login)
 Server Password | (pick a password)
 Location | West US 2
+Connectivity Method | Public Endpoint
+Allow Azure Reources to Access | True
+Add Current Client IP | True
+
 
 ### Database Setup
 
@@ -56,6 +60,9 @@ Server Name | gxnotproddb02
 Server Login | (pick a login)
 Server Password | (pick a password)
 Location | Central US
+Connectivity Method | Public Endpoint
+Allow Azure Reources to Access | True
+Add Current Client IP | True
 
 ### Database Setup
 
