@@ -22,11 +22,24 @@ Create a resource group named GX-NOTPROD-DEV.  Assign the region to be West-US-2
 
 # Azure Front Door Setup
 
+All the website traffic will be setup to run through azure front door.  
+
 ## Overview
+
+Azure front door is an [Application Delivery Network](https://en.wikipedia.org/wiki/Application_delivery_network) as a service that provides layer 7 load balancing. Layer 7 load balancing enables application delivery controllers the ability to inspect traffic and gain deep insights into the application requests.  These insights allow for the controllers to rewrite context, perform security inspections, and implement access controls in addition to providing load balancing capabilities.  
+
+Layer 7 load balancing enables ADC (Application Delivery Controllers) to redirect traffic more intelligently by inspecting content to gain deeper context on the application request. This additional context allows the ADC to not only optimize load balancing but to also rewrite content, perform security inspections and to implement access controls.
+
 
 ### Benifits of Using Azure Front Door 
 
+The following outline the benefits of using azure front door over the use of a traffic manager. 
+
 #### Benifits of Using Azure Front Door over Traffic Manager
+
+
+
+HTTP acceleration - traffic is proxied at the edge of Microsoft's Network.  Http/Https latency is decreased and throughput is increased. 
 
 
 
@@ -84,3 +97,7 @@ Database Name | Ticket
 
 
 # Simulating DB Failover
+
+# Glossary
+
+### <a id="GlossaryApplicationDeliveryController"></a>Application Delivery Controller ### - An application delivery controller (ADC) is a computer network device in a datacenter, often part of an application delivery network (ADN), that helps perform common tasks, such as those done by web accelerators to remove load from the web servers themselves. Many also provide load balancing.
