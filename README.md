@@ -100,4 +100,4 @@ Database Name | Ticket
 
 # Glossary
 
-### <a id="GlossaryApplicationDeliveryController"></a>Application Delivery Controller ### - An application delivery controller (ADC) is a computer network device in a datacenter, often part of an application delivery network (ADN), that helps perform common tasks, such as those done by web accelerators to remove load from the web servers themselves. Many also provide load balancing.
+<a id="GlossaryApplicationDeliveryController"></a>Application Delivery Controller - An application delivery controller (ADC) is a computer network device in a datacenter, often part of an application delivery network (ADN), that helps perform common tasks, such as those done by web accelerators to remove load from the web servers themselves. Many also provide load balancing.
