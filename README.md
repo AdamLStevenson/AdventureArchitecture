@@ -22,7 +22,7 @@ Create a resource group named GX-NOTPROD-DEV.  Assign the region to be West-US-2
 
 # Azure Front Door Setup
 
-All the website traffic will be setup to run through azure front door.  
+By default, we will setup all the website traffic to run through azure front door by default.  In addition to using azure front door, this sample will also setup a traffic manager so users of this example can compre the differences.
 
 ## Overview
 
@@ -33,14 +33,13 @@ Layer 7 load balancing enables ADC ([Application Delivery Controllers](#Glossary
 
 ### Benifits of Using Azure Front Door 
 
-The following outline the benefits of using azure front door over the use of a traffic manager. 
-
 #### Benifits of Using Azure Front Door over Traffic Manager
 
+The following outline the benefits of using azure front door over the use of a traffic manager. 
 
+**HTTP acceleration** - traffic is proxied at the edge of Microsoft's Network.  Http/Https latency is decreased and throughput is increased. 
 
-HTTP acceleration - traffic is proxied at the edge of Microsoft's Network.  Http/Https latency is decreased and throughput is increased. 
-
+**Application Layer Processing** - Azure front door provides the ability to do url re-writing and provides a web application firewall.
 
 
 # SQL Server Setup
